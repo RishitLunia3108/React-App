@@ -42,7 +42,7 @@ export default function MyApp() {
         <Container>
           <Form />
           <ToggleButton onClick={toggleTheme}>
-            {theme === 'light' ? 'Switch to Khushal Mode' : 'Switch to Light Mode'}
+            {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
           </ToggleButton>
         </Container>
       </ThemeContext.Provider>
